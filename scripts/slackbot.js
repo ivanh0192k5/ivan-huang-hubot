@@ -28,7 +28,7 @@ module.exports = function(robot) {
     return msg.send("Hello there young lad");
   });
   robot.hear(/bye/i, function(msg) {
-    return msg.send("Adios Amigos");
+    return msg.send("https://cdn.tinybuddha.com/wp-content/uploads/2015/07/Woman-Waving-Goodbye.png");
   });
   
 
