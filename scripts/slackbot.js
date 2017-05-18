@@ -23,25 +23,9 @@ module.exports = function(robot) {
   //  Example
     robot.hear(/food/i, function(msg) {
     return msg.send("I love food!");
-    robot.hear(/Hello!/, function(res) {
-    return res.send("Hi there!");
-    bot.hear(/Bye!/, function(res) {
-    return res.send("Cya!");
-    bot.respond(/Hi Hubot! My name is (.*)/i, function(msg) {
-      var name;
-      name = msg.match[1];
-      if (name == "Hubot"){
-      return msg.send("You're not Hubot--I'm Hubot!");
-      if (name == "Michael"){
-      return msg.send("Michael Jordan?");
-      } else {
-      return msg.reply("What's up, " + name + "!");
-      }
-});
-});
-});
-    });
-}
+    }
+
+    )}
 
 /************************************
 
