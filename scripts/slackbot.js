@@ -27,6 +27,9 @@ module.exports = function(robot) {
   robot.hear(/hello/i, function(msg) {
     return msg.send("Hello there young lad");
   });
+  robot.hear(/bye/i, function(msg) {
+    return msg.send("Adios Amigos");
+  });
   
 
     }
