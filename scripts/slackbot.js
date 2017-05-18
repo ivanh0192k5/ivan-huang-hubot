@@ -23,9 +23,14 @@ module.exports = function(robot) {
   //  Example
     robot.hear(/food/i, function(msg) {
     return msg.send("I love food!");
-    }
+  }
+  robot.hear(/hello/i, function(msg) {
+    return msg.send("Hello there young lad");
+  })
+  
 
     )}
+
 
 /************************************
 
