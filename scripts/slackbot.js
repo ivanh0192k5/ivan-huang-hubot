@@ -30,6 +30,9 @@ module.exports = function(robot) {
   robot.hear(/bye/i, function(msg) {
     return msg.send("https://cdn.tinybuddha.com/wp-content/uploads/2015/07/Woman-Waving-Goodbye.png");
   });
+  robot.hear(/lebron james/i, function(msg) {
+    return msg.send("26.4 PPG, 8.6 RPG, 8.7 APG, 1.2 SPG, 54.8 FG% 36.3 https://cdn-s3.si.com/s3fs-public/styles/marquee_large_2x/public/2017/05/17/lebron-james-cavaliers-isaiah-thomas-breeze.jpg");
+  });
   
 
     }
