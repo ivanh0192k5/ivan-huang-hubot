@@ -33,26 +33,14 @@ module.exports = function(robot) {
   robot.hear(/lebron james/i, function(msg) {
     return msg.send("26.4 PPG, 8.6 RPG, 8.7 APG, 1.2 SPG, 54.8 FG% 36.3 3PT% https://cdn-s3.si.com/s3fs-public/styles/marquee_large_2x/public/2017/05/17/lebron-james-cavaliers-isaiah-thomas-breeze.jpg");
   });
-  robot.respond(/lebron james/i, function(msg) {
-    return msg.send("26.4 PPG, 8.6 RPG, 8.7 APG, 1.2 SPG, 54.8 FG% 36.3 3PT% https://cdn-s3.si.com/s3fs-public/styles/marquee_large_2x/public/2017/05/17/lebron-james-cavaliers-isaiah-thomas-breeze.jpg");
-  });
   robot.hear(/stephen curry/i, function(msg) {
-    return msg.send("25.3 PPG, 4.5 RPG, 6.6 APG, 1.8 SPG, 46.8 FG% 41.1 3PT% https://cdn-s3.si.com/s3fs-public/styles/marquee_large_2x/public/2017/05/17/lebron-james-cavaliers-isaiah-thomas-breeze.jpg");
-  });
-  robot.respond(/stephen curry/i, function(msg) {
-    return msg.send("25.3 PPG, 4.5 RPG, 6.6 APG, 1.8 SPG, 46.8 FG% 41.1 3PT% https://cdn-s3.si.com/s3fs-public/styles/marquee_large_2x/public/2017/05/17/lebron-james-cavaliers-isaiah-thomas-breeze.jpg");
+    return msg.send("25.3 PPG, 4.5 RPG, 6.6 APG, 1.8 SPG, 46.8 FG% 41.1 3PT% https://usatftw.files.wordpress.com/2015/11/usp-nba_-toronto-raptors-at-golden-state-warriors.jpg?w=1000&h=600&crop=1");
   });
   robot.hear(/kevin durant/i, function(msg) {
-    return msg.send("25.1 PPG, 8.3 RPG, 4.8 APG, 1.1 SPG, 53.7 FG% 37.3 3PT% https://cdn-s3.si.com/s3fs-public/styles/marquee_large_2x/public/2017/05/17/lebron-james-cavaliers-isaiah-thomas-breeze.jpg");
-  });
-  robot.respond(/kevin durant/i, function(msg) {
-    return msg.send("25.1 PPG, 8.3 RPG, 4.8 APG, 1.1 SPG, 53.7 FG% 37.3 3PT% https://cdn-s3.si.com/s3fs-public/styles/marquee_large_2x/public/2017/05/17/lebron-james-cavaliers-isaiah-thomas-breeze.jpg");
+    return msg.send("25.1 PPG, 8.3 RPG, 4.8 APG, 1.1 SPG, 53.7 FG% 37.3 3PT% http://www.mercurynews.com/wp-content/uploads/2017/02/warriorsthunder-04.jpg?w=620");
   });
   robot.hear(/kyrie irving/i, function(msg) {
-    return msg.send("25.2 PPG, 3.2 RPG, 5.8 APG, 1.2 SPG, 47.3 FG% 40.1 3PT% https://cdn-s3.si.com/s3fs-public/styles/marquee_large_2x/public/2017/05/17/lebron-james-cavaliers-isaiah-thomas-breeze.jpg");
-  });
-  robot.respond(/kyrie irving/i, function(msg) {
-    return msg.send("25.2 PPG, 3.2 RPG, 5.8 APG, 1.2 SPG, 47.3 FG% 40.1 3PT% https://cdn-s3.si.com/s3fs-public/styles/marquee_large_2x/public/2017/05/17/lebron-james-cavaliers-isaiah-thomas-breeze.jpg");
+    return msg.send("25.2 PPG, 3.2 RPG, 5.8 APG, 1.2 SPG, 47.3 FG% 40.1 3PT% http://i.cdn.turner.com/nba/nba/dam/assets/151225191923-kyrie-irving-cc-alt-golden-state-warriors-v-cleveland-cavaliers.1200x672.jpeg");
   });
   robot.hear(/nba finals/i, function(msg) {
     return msg.send("The NBA finals starts on June 1st. With the likely matchup of Warriors vs Cavs.");
