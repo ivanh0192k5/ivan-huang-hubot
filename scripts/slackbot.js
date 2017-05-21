@@ -45,6 +45,10 @@ module.exports = function(robot) {
   robot.hear(/lonzo ball/i, function(msg) {
     return msg.send(" He's the GOAT! 20.2 PPG, 10.2 RPG, 10.8 APG, 12.2 SPG, 47.3 FG% 45.1 3PT% http://www.slamonline.com/wp-content/uploads/2017/04/lonzo_magic.jpg");
   });
+  robot.hear(/shoes/i, function(msg) {
+    return msg.send("https://pbs.twimg.com/media/C_AbEwrUIAAAUQx.jpg")
+
+  });
   robot.hear(/nba finals/i, function(msg) {
     return msg.send("The NBA finals starts on June 1st. With the likely matchup of Warriors vs Cavs.");
   });
