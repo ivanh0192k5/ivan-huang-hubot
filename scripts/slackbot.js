@@ -56,7 +56,7 @@ module.exports = function(robot) {
   } else {
     return msg.reply("No");
   }
-  robot.hear(/who is your favorite (.*)/, function(msg) {
+  robot.respond(/who is your favorite (.*)/, function(msg) {
   var fav;
   fav = msg.match[1];
   console.log(fav);
